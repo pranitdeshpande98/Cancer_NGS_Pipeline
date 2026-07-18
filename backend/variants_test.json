@@ -1,0 +1,4 @@
+[
+    {"chrom": "17", "position": 43074454, "ref": "A", "alt": "T", "consequence": "missense_variant", "clinical_significance": "pathogenic"},
+    {"chrom": "17", "position": 43049209, "ref": "G", "alt": "C", "consequence": "intron_variant", "clinical_significance": "likely_benign"}
+  ]

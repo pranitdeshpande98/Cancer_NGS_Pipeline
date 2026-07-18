@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f8;
+  color: #1a1f36;
+  font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.dashboard {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.app-header {
+  border-bottom: 1px solid #d8dee6;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #0f2a4a;
+}
+
+.subtitle {
+  margin: 0.25rem 0 0;
+  color: #5b6b82;
+  font-size: 0.95rem;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(15, 42, 74, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #0f2a4a;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.data-table th {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 2px solid #e2e8f0;
+  color: #5b6b82;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+}
+
+.data-table td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid #edf1f5;
+}
+
+.data-table tr.row-selected {
+  background: #eef4ff;
+}
+
+.mono {
+  font-family: "SF Mono", Consolas, monospace;
+  font-size: 0.85rem;
+  color: #334155;
+}
+
+.btn {
+  background: #1a56db;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #1442a8;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.badge-status-running {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge-status-success {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.badge-status-failed {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.badge-sig-pathogenic {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.badge-sig-likely_benign {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.badge-sig-benign {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.badge-sig-uncertain_significance {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.stats-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-card {
+  flex: 1;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(15, 42, 74, 0.1);
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+}
+
+.stat-card-alert {
+  background: #fff7f7;
+  border: 1px solid #fecaca;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0f2a4a;
+}
+
+.stat-card-alert .stat-value {
+  color: #991b1b;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: #5b6b82;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-top: 0.25rem;
+}
+
+.about-card p {
+  color: #334155;
+  line-height: 1.6;
+  font-size: 0.92rem;
+}
+
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tech-badge {
+  background: #eef2ff;
+  color: #3730a3;
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.variant-track {
+  width: 100%;
+  height: 140px;
+  margin-bottom: 1rem;
+}
+
+.track-label {
+  font-size: 11px;
+  fill: #5b6b82;
+  font-family: "SF Mono", Consolas, monospace;
+}

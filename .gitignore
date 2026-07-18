@@ -1,0 +1,7 @@
+pipeline/annotation/venv/
+backend/venv/
+frontend/node_modules/
+data/
+*.pyc
+__pycache__/
+pipeline_status.json
