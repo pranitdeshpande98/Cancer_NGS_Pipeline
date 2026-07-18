@@ -117,9 +117,6 @@ Visit `http://localhost:5173`.
 
 The React dashboard shows aggregate pipeline statistics, a table of pipeline runs, and — for any selected run — a genomic variant track (styled after the "lollipop plot" visualizations used by tools like cBioPortal) showing each variant's real position along BRCA1, color-coded by clinical significance, alongside a detailed variant table.
 
-![Dashboard screenshot](docs/screenshot.png)
-*(add a screenshot of the dashboard here)*
-
 ## CI/CD
 
 GitHub Actions (`.github/workflows/ci.yml`) runs on every push:
